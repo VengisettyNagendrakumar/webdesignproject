@@ -1,0 +1,35 @@
+.cardbody{
+    border: 3px solid rgb(15, 17, 11);
+    padding: 3%;
+    margin: 2%;
+    border-radius: 5%;
+    text-align: center;
+    background-color:rgb(253, 252, 214);
+    
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10%;
+}
+button{
+    background-color: rgb(132, 158, 132);
+}
+u{
+    color:blue;
+    font-size: large;
+}
+h3{
+    color:rgb(49, 172, 177);
+}
+@media only screen and (min-width:300px) and (max-width:440px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbody{
+        width: 95%;
+        font-size: 30px;
+        background-color: cornsilk;
+        
+    }
